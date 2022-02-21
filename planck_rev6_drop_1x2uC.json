@@ -5,7 +5,18 @@
   "keyboard": "planck/rev6_drop",
   "keymap": "planck_1x2uc_codeplanck10",
   "macros": [
-    ["+1"]
+    [
+            {"action":"down", "keycodes": ["LSFT"]},
+            "hello world1",
+            {"action": "up","keycodes": ["LSFT"]}
+        ],[
+            {"action":"down"},
+            "hello world1",
+            {"action": "up"}
+        ],
+        [
+            {"action":"tap", "keycodes": ["PLUS", "1"]}
+        ],
   ],
   "layout": "LAYOUT_planck_1x2uC",
   "layers": [
